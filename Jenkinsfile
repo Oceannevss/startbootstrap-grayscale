@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "oceannevss/helloworld"
+    registry = "oceannevss/my-nginx"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
